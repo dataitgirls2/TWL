@@ -110,5 +110,5 @@
 - GitHub 익히느라 동기 여러분 모두 고생 많으셨습니다.
 
 - 자기소개 때 보여드렸던 브런치 '데이터 과학의 도구들' 글 주소 : https://brunch.co.kr/@youngestsalon/53
-- 혹시, 저하고 같이 점심에 도시락 싸오시거나 배달시켜 드실 분 계시다면 Slack으로 Direct Message 부탁 드립니다. :)
+- 혹시, 저하고 같이 점심에 도시락 싸오시거나 배달시켜 드실 분 계시다면 Slack으로 Direct Message 부탁 드립니다. :) 
 
