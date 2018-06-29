@@ -1,3 +1,3 @@
-# TIL
-Today I learned
-python and pandas
+
+# TWL
+Today We Learned
