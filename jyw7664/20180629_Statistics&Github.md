@@ -111,3 +111,41 @@ ex) 차원(변수의 개수)이 1,2,10 일때 20%를 보고 싶다면? 각변수
 
 ## 숙제
 ### **7월20일 금요일까지 엑셀 실습을 파이썬으로 구현해보기!**
+
+# 2018/06/29 Github
+
+### 목표
++ 터미널(git bash)을 사용하여 git의 기초를 이해하기
++ 헌법개정안으로 변경 전과 후의 파일을 비교하여 diff 해보고 풀리퀘스트를 보내기
++ 누구나 쉽게 이해할 수 있는 Git 입문 문서를 참고해서 진행 (https://backlog.com/git-tutorial/kr/intro/intro1_1.html) 
+
+### 저장소의 공유
++ 푸시하기, 클론하기, 풀리퀘(보내는 것), 풀(가져오는 것, 터미널이나 소스코드에서 가능)
++ 변경이력의 통합 : 머지하기
+
+### 헌법개정안 실습
++ 로컬에서 폴더 생성하기
++ 깃배쉬에서 코드를 입력해 깃헙으로 반영시키기
+
+1. github에 'constitution-kr' 이라는 저장소를 생성한다.
+2. 1987 헌법을 다운받는다. https://drive.google.com/drive/u/0/folders/11REn11b5WaOTWVeHy-T3ddM48_Y_P7CB
+3. 로컬에 git으로 관리할 폴더를 생성한다. 폴더명은 'constitution-kr' 로 한다.
+4. git init 을 한다.
+5. git add “대한민국 헌법.txt” 로 git 으로 관리할 파일이라는 것을 지정해 준다.
+6. git commit -m “1987년 헌법" 으로 커밋 메시지를 작성하고 커밋한다.
+
+
+(-m 이라는 옵션은 메시지를 뜻하며 옵션에 대한 도움말은 git commit -h 로 볼 수 있다. git 명령어 -h로 대부분의 명령어에 대한 옵션 도움말을 볼 수 있다.)
+
+7. git remote add 로 리모트 저장소를 추가한다. Git - 리모트 저장소 (https://git-scm.com/book/ko/v1/Git%EC%9D%98-%EA%B8%B0%EC%B4%88-%EB%A6%AC%EB%AA%A8%ED%8A%B8-%EC%A0%80%EC%9E%A5%EC%86%8C)
+
+8. 로컬에 있는 파일을 github으로 관리할 수 있도록 push 해준다. git push -u origin master (위에서와 마찬가지로 git push -h 로 옵션에 대한 설명을 볼 수 있다.) 보통 업스트림을 의미하는 -u와 강제로 푸시하는 -f 를 주로 사용할 예정.  
+9. github 으로 가서 해당 파일이 업데이트 되었는지 확인해 본다.
+
+### SSH Key 생성으로 애를 먹었다 :cry:
+gitbash로 키를 생성하는 방법 참고 https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
+
+
+@eunjeong(TC)님이 slack에 공유해주신 링크도 참고 하자. http://egloos.zum.com/thisno/v/4022154
+
+
