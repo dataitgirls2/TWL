@@ -1,13 +1,13 @@
 # gitbash & sourcetree _ 20180629
   *lectured by 배로*  
   
-git : 이력을 관리하는 저장소  
+__git__ : 이력을 관리하는 저장소  
 버전 관리의 필요성 때문에 생겨난 것. 
 충돌이 일어났을 때 이를 고칠 수 있는 방법을 이력을 통해 확인할 수 있다.
-git 안에서 add와 commit이 가능하다.
-push : local에서 github server로 파일을 내보내는 것.  
-git hub : 매개체이다.  
-commit : 변경내용을 저장하는 것.
+git 안에서 add와 commit이 가능하다.  
+__push__ : local에서 github server로 파일을 내보내는 것.  
+__git hub__ : 매개체이다.  
+__commit__ : 변경내용을 저장하는 것.
 
 저장소를 원격(remote)에도 만들고 local에도 만들고 동기화하는 것이 오늘 할일.
 
