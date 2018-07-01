@@ -27,7 +27,7 @@ git init | git add | git commit
 ````
 echo "# constitution-kr" >> README.md //README.md 파일에 constitution-kr을 씀
 git init //깃 시작
-git add README.md //README.md를 스토리지에 올림 
+git add README.md //README.md를 stage에 올림 
 git commit -m "first commit" // firstcommit 으로 커밋
 git remote add origin https://github.com/yaeinjung/constitution-kr.git //주소로 리모트를 지정해줌(여기로 올릴거다)
 git push -u origin master //마스터에 업데이트함
