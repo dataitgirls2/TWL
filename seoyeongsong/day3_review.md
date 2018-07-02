@@ -18,6 +18,6 @@
  - 탐색적 분석 : 시각화/ 통계적 이론, 공간의 배치와 색상 등 우리눈이 시각정보를 받아들이는 mechanism을 이해하자.
  - 실무에서 쓰는 도구들 : Ten steps to complex learning을 참고하자.
 ### 3. Programming 구성
-##### - Sequence : 상 - 하 방향성
-##### - Selection : 조건에 따라 다른 실행
-##### - Repetition : 반복
+- Sequence : 상 - 하 방향성
+- Selection : 조건에 따라 다른 실행
+- Repetition : 반복
