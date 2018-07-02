@@ -54,3 +54,13 @@ pseudo random number generator
 사람에게 프로그래밍할 때 중요한 것 : 모듈화, 재활용, 재귀적 결합, 추상화, 소프트웨어 공학
 
 스크래치 : sequence, 조건, 반복
+
+## 스크래치 작품
+https://scratch.mit.edu/projects/235196312/
+1. 마녀를 피해 스타피쉬 구출하기
+
+https://scratch.mit.edu/projects/235199590/
+2. 북치고 장구치고 리듬 만들기
+
+https://scratch.mit.edu/projects/235203620/
+3. 스타피쉬의 심부름
