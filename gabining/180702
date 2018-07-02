@@ -1,0 +1,51 @@
+# 180702 TWL
+------------------------------------------------------------------------------------------
+## 1. 콜레라 지도/로즈 다이어그램
+콜레라 지도 -> 데이터 기반 의사 결정의 일면을 보여줌
+### 콜레라 지도(By Jon Snow)
+![default](https://user-images.githubusercontent.com/40630535/42154841-c601032e-7e21-11e8-8e15-e15fbaa230be.jpg)
+* 자신의 이론의 예외를 찾음(펌프 주변에서 떨어진 곳에서 사망자 발생 이유)
+* 이론의 점검을 통해 신뢰도를 높임.
+* 시각화를 다르게 함.
+<http://businessnews.chosun.com/site/data/html_dir/2015/04/06/2015040601093.html>
+<http://thfield.github.io/johnsnow/>
+
+### 컴퓨터를 활용
+* 탐색적 분석으로 인터랙션, 능동적 읽기 가능케 함
+* 다양한 기준에 의해 집계와 탐색이 가능
+* 데이터가 바뀌어도 반복하여 작업하지 않음
+
+### 로즈다이어그램
+* 한계점: 인간은 면적 비교에 취약. 그래프는 왼->오가 적합
+* 영역으로 시각화를 하게 되면 데이터가 2배가 되어도 잘 튀지 않음
+
+
+
+## 2. 프로그래밍의 역할
+* EDA(Exploratory data analysis, 탐색적 자료 분석) : 데이터를 살피면서 질문을 찾는 과정
+* 기존의 자료분석: confirmation -> 현재의 자료분석: exploration+confirmation
+![default](https://user-images.githubusercontent.com/40630535/42154931-f3beedda-7e21-11e8-83c6-825441428cda.png)
+  * __Import__ : 데이터 구하기
+  * __Tidy__ : 데이터 다듬기
+  * __UnderStand__
+    * Transform : 데이터 변환 (Power Transform : 극단적으로 튀는 값들을 조정해 데이터를 고르게 보이도록함)
+    * Visualize : 데이터 시각화
+    * Model : 일반적인 규칙 찾아내기
+  * __Communicate__ : 대중에게 친숙한 방법으로 데이터 시각화
+  
+  
+  
+## 3. 현업에서의 문제
+* Transform, Visualize, Model 단계에서 소요시간 줄일것
+* 데이터 분석 이후 결과물이 소프트웨어로서 산출되어 실제 지속적으로 운용 가능하도록!
+* 데이터 분석자가 프로그래밍을 할 수 있는 것이 이상적
+
+
+
+## 4. 스크래치로 프로그래밍
+* Sequence와 Selection
+  * Sequence : 프로그램 안에 서브 프로그램이 존재하며, 이는 순차적으로 실행됨
+  * Selection : 케이스를 나누어 코딩
+  
+* Coding convention : 협업을 할 때의 개발자들의 코딩 규칙
+* 파이썬코딩가이드: <https://www.python.org/dev/peps/pep-0008/?>
