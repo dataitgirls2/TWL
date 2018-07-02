@@ -21,3 +21,5 @@
 - Sequence : 상 - 하 방향성
 - Selection : 조건에 따라 다른 실행
 - Repetition : 반복
+##### coding convention : 협업하기 위해 가이드라인을 만들어 지킨다.
+##### ex) naming convention : 변수의 이름을 만들 때 규칙을 수립
