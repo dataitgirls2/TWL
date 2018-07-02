@@ -39,3 +39,9 @@
 - Scratch : 인지 능력 향상을 위한 프로그래밍 교육용 도구.
 - 모든 프로그래밍(컴퓨터 명령) = sequence(순차), selection(선택), repetition(반복)의 재귀적 조합
 - 개발자들 간의 규칙(매너) : naming-convention (변수 이름 설정 규칙. 언어마다 다름), coding style (Ex. python의 PEP8)
+
+6. 과제 : Scratch 작품 3개 구현하기
+- Tell me where I will go (https://scratch.mit.edu/projects/235221757/) : 마우스 클릭을 받아 이동하거나, 거부하거나. 20번 반복 후 멈춤.
+- Tail caught (https://scratch.mit.edu/projects/235196865/) : 고양이와 강아지의 꼬리잡기.
+- Heart of Love (https://scratch.mit.edu/projects/235198411/) : 이름을 입력 받은 후, 하트를 그리고 나서 사랑 고백을 출력.
+
