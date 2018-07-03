@@ -66,11 +66,11 @@ print(score, '의 합계와 평균 :', sum_score,',', average)
 ~~~
 # 합계 구하기 실습
 
-def calc_sum(numbs):			#함수 정의('def')는 동사형, 변수 정의는 명사형을 주로 사용
+def calc_sum(numbs):			 #함수 정의('def')는 동사형, 변수 정의는 명사형을 주로 사용
     result = 0				    #결과값을 저장하는 변수
     for num in numbs:
         result = result + num
-    return result				#함수의 결과값을 반환
+    return result				 #함수의 결과값을 반환
     
 def calc_len(numbs):
     result = 0
