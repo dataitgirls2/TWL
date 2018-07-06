@@ -189,3 +189,9 @@ OPEN DATA DAY 3년에 열리는 OPEN DATA DAY.
     3. Enter the following ```q!```
 
        
+
+  - bash vi save
+
+  - : Write your file by entering ```:w``` and quit by entering ```:q ```
+
+  -   
