@@ -162,4 +162,30 @@ OPEN DATA DAY 3년에 열리는 OPEN DATA DAY.
 
   : 샤이 트럼프 일 수도 있고, 설문조사 문항에서 어휘 한 두개를 바꿀 수도 있다. 
 
-  
+  -----------
+
+  1. ```fork```
+  2. ```clone```
+
+  3: ```remote upstream```
+
+4. ```git pull --rebase``` : fetch, merge, add , commit를 한 번에 한다. 
+5. unstage 된 file이 있을 수 있다. 같은 folder로 작업하기 때문에 우리 모두에게 생겨날 수 있는 것이다. ```git add . ```로 다 옮겨주면 된다. 오류가 나는 상황을 반기는 게 좋다. 최대한 많은 오류를 겪는게 도움이 된다.  
+
+만약 push가 안될 때 auto stash를 하면된다. git add/ commit/ push가 되면 
+
+6. pull request
+
+
+
+- bash - vi - editing- mode 
+
+  - bash vi exit :
+
+    1. press ```esc``` key
+
+    2. Press ```:```
+
+    3. Enter the following ```q!```
+
+       
