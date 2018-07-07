@@ -9,6 +9,6 @@
 7. 정적 블로그 운영: 깃헙 블로그 운영하기
 8. TWL: (당번이라면)수업 종료 후 그 날 배운 내용 꼭 정리하기!
     TIL: 개인적으로 운용하기
-9. '플'리케스트 = Pull Request
+9. 커밋 후 upstream에 pull request 후 merge하기
 10. (Tutorial)[http://rogerdudler.github.io/git-guide/index.ko.html]
 11. SourceTree 설치하기 
