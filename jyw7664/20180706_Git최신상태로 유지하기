@@ -1,0 +1,119 @@
+# 20180706 Git최신상태로 유지하기
+
+- **remote -v** : 리모트를 확인
+- **git config --llist** : 자신의 아이디와 저장소가 잘되어있는지 확인
+- **wq** : 저장하고 닫기
+- **git push -u** origin master : 
+- **git status** : git에 파일이 올라갔는지 확인 빨간색-> 아직안올라감
+- **git add**  대한민국헌법.txt : 
+- 애드 -> 커밋(git commit -m) -> 푸시 (git push -u origin '대한민국 헌법.txt') -> github확인
+- vi README.md : 리드미파일을 만든다 ->  커밋 
+- **포크해 온 저장소의 소스를 가져오기** 
+- -> **git pull --rebase upstream master**   까지한후에 푸시마스터해야 깃헙에 반영됨
+
+## git branch
+
+- git checkout -b 2018 : 2018 브랜치를 만든다
+- git checkout 2018 : 2018브랜치로 간다
+- git branch : 현재있는 브랜치를 확인
+- ls -al :파일확인
+- git diff : 달라진 내용을 확인
+- mv down~~ : 깃에 수정파일업로드
+- git add ~.txt
+- git commit -m '2018개정안'
+- git push -u origin 2018 : 2018브랜치로 푸시한다
+- 브랜치가 생성된 것을 확인
+
+-> 풀리퀘하기 -> 파일체인지로 무엇이 바뀌었는지 확인하기(단락마다 +눌러서 커맨트 남길 수 있음)  
+
+**타이포라로 문서만들고 애드커밋푸시 해서 깃헙말고 로컬에서 파일이 반영되도록 할 수 있다.**
+
+
+
+## 실습
+
+### 1) 포크해온 TWL저장소의 소스를 가져온다면?
+
+1. **cd c://dataitgirls :** 로컬에 저장할 폴더를 지정
+2. **git clone 내TWL저장소SSH주소붙이기 :** 내 로컬에 TWL이 생김
+3. **cd TWL :** 생긴폴더로 다시 지정
+4. **git remote -v :** 오리진 확인
+5. **git remote add upstream 데잇TWL SSH원주소붙이기 :** 불러올 주소가 지정됨
+6. **git pull --rebase upstream master :** 원주소에 있던 파일이 내 로컬파일에서 생성됨
+7. **git push -u origin master (push에서 오류가 뜨면 git push -f origin master) :** 내 TWL깃헙에 데잇파일이 생성됨!! 완벽~~
+
+
+
+### 2) 데잇걸즈 TWL저장소에 변경된 내용이 있을 때
+
+1. **git add .** 
+2. **git commit -m 'add files'  :** 오류가 뜬다면?
+3. **git pull --rebase --autostash upstream master** : 임시로 스테이지에 있는파일을 끌어오겠다
+4. **git add .**
+5. **git commit -m 'add files'**
+6. **git push -u origin master :** 변경된 내용이 업데이트됨!! 
+
+
+
+### 과제 
+
+- 헌법개정안 브랜치 만들어서 2018 커밋하기
+- 아나콘다 설치하기
+
+
+
+# 오후 특강
+
+### 김슬님
+
+뉴스타파 소속 개발자
+
+### 시빅해킹이란?
+
+ : 공공문제를 해결하는 프로그램을 만드는 것
+
+같은 사건을 모아볼수 없을까?
+
+exif를 사용해 정보를 클러스트링해본다
+
+이걸 실시간으로 볼수 없을까?
+
+트위터 -> 내가 몰랐던 사건들이 많다는 사실.
+
+국회기록 -> 열려라 국회데이터 -> 자유와 바른이 분당후 공동발의현황이 가깝게있는것을 확인 
+
+irt 
+
+네이트 실버 : [신호와 소음](http://www.aladin.co.kr/shop/wproduct.aspx?ISBN=8966187587&start=pnaver_02) 추천
+
+정보공개청구 신청 대장을 보고 참고해서 신청할 수 있음.
+
+정보공개센터 단체를 통해 도움받을 수 있음.
+
+오픈데이터데이 매년 3월에 오픈데이터로 프로젝트를 하는 날
+
+존맛국회 깃헙에 자료도 있음
+
+미국의 법관 - 정보를 입력하면재범율을 알수 있었는 프로그램분석코드
+
+오픈소스를 가져다 쓰자? 아니고 협력이라고 생각하면 생각하는, 할 수 있는 범위가 달라진다.
+
+바르지 못한 데이터분석의  무서운 결과
+
+포로포플리카 가디언? 해외기사들에서 토픽을 찾아서 우리나라 데이터에 적용해보기
+
+[널채움](https://nullfull.github.io/)
+
+sl@dotface.kr
+
+
+
+### 추천도서
+
+[어쩌다보니 통계학자](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=63822455)
+
+[통계학의 피카소는 누구일까](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=10980902) 
+
+[신호와 소음](http://www.aladin.co.kr/shop/wproduct.aspx?ISBN=8966187587&start=pnaver_02)
+
+
