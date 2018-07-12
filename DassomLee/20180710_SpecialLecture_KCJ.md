@@ -15,7 +15,7 @@ loomio collaborative decision-making
 CQ; Collaborative Intelligence Quotient 집단지능
   각 개인의 지능지수(IQ; Intelligence Quotient)가 아닌 공감지수(EQ; Emotional Quotient)가 CQ를 예측하는데 더 큰 효과를 보임
   
-전문성에 대한 질문
+## 전문성에 대한 질문
   1. 전문성은 분야를 뛰어넘을 수 있는가?
     성실성이 영향을 미치긴 하지만, 전문성은 Domain specific
   
@@ -32,12 +32,12 @@ CQ; Collaborative Intelligence Quotient 집단지능
     
   5. Generalist & Specialist
  
-요즘 하는 공부에 대해 전문성이 함양되고 있는지 스스로 평가하려면?
+## 요즘 하는 공부에 대해 전문성이 함양되고 있는지 스스로 평가하려면?
   재생산이 학습효과가 뛰어남
   배운 개념을 응용해 볼 것. 가상의 대상을 설정하고 프로젝트를 진행해 볼 것. 특정 사용자라는 맥락 안에서 데이터에서 어떤 특징을 뽑아야 하는지 알 수 있음
     e.g., 영유아 부모를 대상으로 하는 데이터 분석은 어떤 관점으로 해야할까?
   
-전문가에게 조언을 구할 때는,
+## 전문가에게 조언을 구할 때는,
   맥락을 설정하고 문의할 것. 내가 설정하고 밟아 나가는 맥락과 전문가의 맥락을 비교해 봄으로써 많은 것을 배울 수 있음
   --> 능동적 학습!
   분야를 막론하고 전문가를 활용하라
