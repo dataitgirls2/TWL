@@ -7,6 +7,7 @@
 
 loomio collaborative decision-making
   찬성, 반대, 보류, 차단의 네 가지 선택을 하여 모든 구성원의 의견을 반영하게 하는 시스템
+ 
   참고: https://www.youtube.com/watch?v=HM66pu9sAGo
  
 갈등이 발생하는 이유는 소통이 아니라 상대에 대한 정보가 부족하기 때문
