@@ -48,7 +48,11 @@
 
 **Parse - tree structure - HTML DOM (document object model)**
 
-- HTML5lib parse
+**HTML5lib parse**
+  html5lib is a pure-python library for parsing HTML. 
+  It is designed to conform to the WHATWG HTML specification, 
+  as is implemented by all major web browsers.
+  
 - Remind this part by reviewing what I have learned today
 
 
