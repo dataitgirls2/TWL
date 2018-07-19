@@ -71,3 +71,12 @@ git push -u origin 2018
 => Pull request 생성하고, Merge하기
 
 <SSH 키 바꾸기>
+ssh-keygen -t rsa -b 4096 -C "jieun.kim0413@gmail.com"
+vi ~/.ssh/id_rsa.pub
+clip < ~/.ssh/id_rsa.pub
+vi .git/config
+git config --list
+git remote -v
+
+:w
+:q
