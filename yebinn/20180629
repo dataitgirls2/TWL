@@ -1,0 +1,62 @@
+# 통계 & Git bash - 18.06.29
+## 통계 기초
+- 모수 from 모집단 vs 통계량 from 표본 비교
+
+### 통계가 필요한 이유
+- 통계학을 적용한 자료는 신뢰성을 가짐
+- 의사결정에 필요한 과학적 근거 자료를 제시
+- 현상을 분석하여 실증자료를 제시
+
+### 모집단을 다 가지고 있는 것이 좋은 것일까?
+-> no! 차원의 저주 때문
+차원(=변수 개수)이 증가하면 그것을 표현하기 위한 데이터 양이 기하급수적으로 증가
+Ex) 전체에서 20%를 보고 싶으면? 1차원 -> 각 변수 20% / 2차원 -> 각 변수 약 45% / 3차원 -> 각 변수 약 58% / 10차원 -> 각 변수 85%
+즉, 차원이 늘어날수록 같은 비율의 공간이 되기 위해서는 변수별 필요한 공간이 기하급수적으로 늘어남
+
+데이터로부터 정보를 얻기 위한 다양한 시도를 해야 한다 : 제일 중요!!
+
+무조건 산점도랑 상관계수랑 같이 봐야됨(상관계수 0이어도 상관관계 있을 수 있기 때문)
+
+## Git bash
+# Git
+- 버전관리의 필요성
+- git init : 폴더 초기화
+- git add : 폴더 안에 파일을 생성
+- git commit : 수정한 것을 컨펌(저장)
+- git push : 로컬에서 원격으로 업로드
+
+*pull이랑 pull request는 다름
+Git pull은 온라인에서 못함, 소스트리나 터미널(윈도우에선 cmd)로 해줘야돼(pull, push이용)
+
+- master랑 다른 브랜치 파일을 merge하면 master에 있는게 바뀜
+
+경로 복사 -> cd(change directory) 붙여넣기(역슬래쉬를 //로 바꿔)
+*pwd는 현재 경로 볼 수 있음
+Cd~ 초기화
+
+Ls : 리스팅해줘
+
+Esc+ :w  저장하고 닫음
+Esc+ :q  그냥 닫아
+
+# 1987년 헌법 vs 2018년 헌법 비교
+1. git으로 관리할 폴더 하나 생성(constitution-kr) & 1987년 헌법 파일("대한민국헌법.txt") 저장
+2. 
+git init
+git add "대한민국헌법.txt"
+git commit -m "1987년 헌법"   */ 로컬 컴퓨터에 있는 파일에 1987년 헌법 파일 생성
+git remote add github.com/yebinn/constitution-kr.git
+git push -u origin master
+3. 2018년 헌법 파일 저장("대한민국헌법.txt"에 덮어쓰기)
+4.
+git checkout -b 2018    */branch 생성
+(git branch    */branch 목록 + 활성화된 branch에 별표 표시
+branch 이동하고 싶을 땐 git checkout master)
+git add "대한민국헌법.txt"
+git commit -m "2018년 개정안"
+git push -u origin 2018
+
+
+
+
+
