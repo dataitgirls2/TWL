@@ -97,9 +97,15 @@ pull request : master로 merge. describe 하는 게 좋다.\
   - ``` git pull--rebase upstream master```: twl에 없었던 다른 사람것이 다 생김. 
   - ```git push -u origin master``` : 내 걸로 업데이트 하는 것. 
   - ```git push -f origin master```:  
-  - 
 
-김슬
+  ```git mv '파일명'
+  git mv 파일명 새로운 파일명 
+  
+  git push -u origin master 
+  
+  ```
+
+  김슬
 
 평범한 개발자 
 
@@ -107,6 +113,10 @@ pull request : master로 merge. describe 하는 게 좋다.\
 
 - 컨텐츠 분석, 소비자 니즈 파악. 
 - 데이터 분석이 핫하기 때문에 월급을 받는 방법으로 배우는 사람들이 많다. 그런 목적을 달성하기도 어렵다. 또한 유지되기 어렵다. 세상에 대한 호기심, 애정이 있는 사람과는 차이가 난다. 
+
+
+
+
 
 civic hacking :
 
@@ -189,3 +199,9 @@ OPEN DATA DAY 3년에 열리는 OPEN DATA DAY.
     3. Enter the following ```q!```
 
        
+
+  - bash vi save
+
+  - : Write your file by entering ```:w``` and quit by entering ```:q ```
+
+  -   
