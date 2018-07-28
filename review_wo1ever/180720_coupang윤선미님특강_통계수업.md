@@ -6,7 +6,10 @@
 
 #### 쿠팡 Junior Data Analyst
 
+
 ysunmi0427@gmail.com
+
+
 
 ##### 배송시스템부서
 
