@@ -1,0 +1,42 @@
+## Binary_Classification<br>
+
+#### 학습 목표<br>
+1. sample m 개 -> m번 for loop?<br>
+  => deep neural network 에서는 vectorization 으로 압축<br>
+2.신경망 계산<br>
+  - Forward Propagation<br>
+  - Backward Propagation<br>
+
+#### 이미지 표현 방법<br>
+RGB : 하나의 이미지에 64 * 64 * 3 크기의 행렬<br>
+
+## Logistic Regression<br>
+
+* 'regression'?
+-종속변인과 독립변인의 관계를 추정하기 위해(y=f(x)) 만듬
+
+-데이터의 실측치와 모델의 추정치 사이의 잔차(데이터의 실측지와 모델의 예측치 사이의 차이가 '평균'으로 회귀 하는 것 )가 정규분포이면서 독립분포여야 한다
+    즉, 독립적이지 않다면(패턴을 가진다) 문제를 가진다
+    ?어떤 문제?
+
+
+
+#### 퍼셉트론 과 신경망의 차이<br>
+  퍼셉트론의 활성화 함수는 상대적으로 단순 ( 신경망 vice versa)<br>
+  퍼셉트론은 하나의 layer를 의미
+
+#### 활성화함수의 등장<br>
+
+##### 활성화 함수 왜 필요한가 ? <br>
+1.만약 Hidden Layer 의 선형적 과정이 계속 반복 된다면<br>
+  어차피 전체 model 은 선형 -> 비효율적 <br>
+2.가중치(W)가 무한하게 증가하는 것을 방지 <br>
+3.Optimization에 적합한 데이터를 생성하게끔 해준다.<br>
+https://www.quora.com/Why-do-neural-networks-need-an-activation-function<br>
+
+##### 활성화 함수 : 입력신호의 총합을 그대로 사용하지 않고 출력신호로 변환시킨다<br> (즉, 입력신호의 총합이 활성화를 일으키는지 아닌지를 결정)<br>
+
+>활성화 함수의 종류<br>
+* 시그모이드 함수  : 비선형 함수 (신경망에 => 비선형 함수)<br>
+<br>
+>ReLU 함수 : 입력이 0을 넘으면 그 입력을 그대로 출력하고 0 이하이면 0을 출력하는 함수입니다.<br>
