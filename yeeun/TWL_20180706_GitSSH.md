@@ -43,6 +43,11 @@ ssh-add ~/.ssh/id_rsa	#자기 private key 등록
   ~~~
   git remote set-url upstream git@github.com:dataitgirls2/TWL.git
   ~~~
+  
+- 제대로 되었는지 확인하기
+  ~~~
+  git remote -v
+  ~~~
 
 ## 명령어
 
