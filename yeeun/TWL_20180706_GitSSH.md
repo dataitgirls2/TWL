@@ -4,7 +4,8 @@
 
 ## SSH key 등록하기
 
-1. Generate a new SSH key: sourcetreed의 'SSH Key 생성 또는 불러오기'는 오류 남
+1. Generate a new SSH key: sourcetreed의 'SSH Key 생성 또는 불러오기'는 오류 남:
+- 이 명령어로 id_rsa라는 키를 생성한 후 내 로컬 Users/Username/.ssh 폴더를 만들어 여기에 저장합니다.
 
 ~~~
 ls -al ~/.ssh	# ssh 폴더에 어떤 키가 있는지 조회
@@ -19,8 +20,25 @@ ssh-add ~/.ssh/id_rsa	#자기 private key 등록
 ~~~
 
 3. Github에 키 등록
+- 내 로컬 Users/Username/.ssh에 들어가 id_rsa 퍼블릭 키를 메모장 등으로 열고, 텍스트를 복사하거나 다음 명령어를 실행해서 퍼블릭 키 내용물을 클립보드에 복사합니다
+  ~~~
+  ls -al ~/.ssh	# C/.ssh를 보여줌
+  clip < ~/.ssh/id_rsa.pub
+  ~~~
 
+- 깃허브에서 내 계정 SSH키로 등록합니다
    
+## Remote Repository SSH 키로 등록하기
+- origin 연결을 remote ssh로 변경시키기
+  ~~~
+  git remote set-url origin git@github.com:USERNAME/REPOSITORY NAME.git
+  ~~~
+
+- add upstream
+  ~~~
+  git remote add upstream https://github.com/ORIGINAL OWNER/ORIGINAL REPOSITORY NAME.git
+  ~~~
+
 
 ## 명령어
 
@@ -62,19 +80,6 @@ ssh-add ~/.ssh/id_rsa	#자기 private key 등록
 - git pull: fetch + merge 기능. 중앙 저장소(내 포크) 소스를 로컬 저장소로 가져옴
 
 - git pull --rebase: 커밋 없이 add. 저장소 이력을 간결하게 유지하는데 좋음
-
-- remote ssh로 변경시키기
-
-  ~~~
-  git remote set-url origin git@github.com:USERNAME/REPOSITORY.git
-  ~~~
-
-- add upstream
-
-  ~~~
-  git remote add upstream https://github.com/ORIGINAL OWNER/ORIGINAL REPOSITORY.git
-  ~~~
-
 
 
 ## PUSHING
