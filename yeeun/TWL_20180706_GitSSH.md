@@ -146,25 +146,3 @@ git remote add origin https://github.com/snakefeet42/sandbox.git
 git push -u origin master
 ~~~
 
-
-
-## 정체 불명의 광역적 오류
-
-왜 저 파일만 문제가 되는지 모르겠다. 파일명이나 확장자 문제는 아닌 듯.
-
-> $ git status
-> On branch master
-> Changes not staged for commit:
->   (use "git add <file>..." to update what will be committed)
->   (use "git checkout -- <file>..." to discard changes in working directory)
->
-> ​    **modified:   DassomLee/20180629_statistics&constitution**
->
-> no changes added to commit (use "git add" and/or "git commit -a")
-
-~~~
-git add .	# add all: git ignore
-git commit -m 'add files'	# unstaged상태 파일 다 커밋 로컬 저장소에 일단
-git push -f origin master
-~~~
-
