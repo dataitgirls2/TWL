@@ -8,6 +8,8 @@
 
 - [실습] 국민청원 카테고리의 기타 예측하기
 
+    ![20180806_petition_modeling](https://github.com/YoungestSalon/TIL/blob/master/20180806_petition_modeling.jpg?raw=true)
+
   - XGBoost 분산형 그래디언트 부스팅 알고리즘
   - 분석의 정확도 개선 : ngram_range와 max_features 숫자 올리기
   - 랜덤 포레스트의 random_state
