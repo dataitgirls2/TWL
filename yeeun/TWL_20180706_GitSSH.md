@@ -34,11 +34,15 @@ ssh-add ~/.ssh/id_rsa	#자기 private key 등록
   git remote set-url origin git@github.com:USERNAME/REPOSITORY NAME.git
   ~~~
 
-- add upstream
+- add upstream 
+  - HTML로 등록
   ~~~
   git remote add upstream https://github.com/ORIGINAL OWNER/ORIGINAL REPOSITORY NAME.git
   ~~~
-
+  - SSH로 등록(업스트림 없을때 그냥 add upstream 해도 됨)
+  ~~~
+  git remote set-url upstream git@github.com:dataitgirls2/TWL.git
+  ~~~
 
 ## 명령어
 
@@ -69,8 +73,6 @@ ssh-add ~/.ssh/id_rsa	#자기 private key 등록
   mv -rf OldDirectory NewDirectory
   ~~~
 
-  
-
 ## PULLING
 
 - 로컬 저장소를 원격 저장소에 맞춰 갱신하기: 편집충돌 주의!
@@ -96,21 +98,11 @@ ssh-add ~/.ssh/id_rsa	#자기 private key 등록
    git commit -m "Enter message here"
    ~~~
 
-3. 
+3. Forced push
 
-
-
-
-
-Forced push
-
-~~~
-git push origin BranchName -f	
-~~~
-
-
-
-
+   ~~~
+   git push origin BranchName -f	
+   ~~~
 
 ## Branch
 
