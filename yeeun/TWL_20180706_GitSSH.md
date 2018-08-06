@@ -5,7 +5,7 @@
 ## SSH key 등록하기
 
 1. Generate a new SSH key: sourcetreed의 'SSH Key 생성 또는 불러오기'는 오류 남:
-- 이 명령어로 id_rsa라는 키를 생성한 후 내 로컬 Users/Username/.ssh 폴더를 만들어 여기에 저장합니다.
+- 이 명령어는 id_rsa라는 키를 생성한 후 내 로컬 Users/Username/.ssh 폴더를 만들어 저장합니다.
 
 ~~~
 ls -al ~/.ssh	# ssh 폴더에 어떤 키가 있는지 조회
