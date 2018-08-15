@@ -176,10 +176,10 @@ Normalized independent random variables tends towards a normal distribution even
 
 **Statistical Inference** 통계적 추론
 
-- Use sample data to derive attributes of the population
+- Use sample data to derive parameters of the population
 
-  - either to validate the numerical attribute of the population 
-  - or to validate the assumption of the population (statistical model)
+  - either to validate parameters of the population 
+  - or to validate th e inference of the population (statistical model)
 
 - Statistical proposition : 
 
